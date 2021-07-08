@@ -1,0 +1,8 @@
+services:
+  jekyll-serve:
+    image: jekyll/jekyll:3.8.6
+    volumes:
+      - './blog:/srv/jekyll'
+    ports:
+      - 4000:4000
+    command: 'jekyll serve'
