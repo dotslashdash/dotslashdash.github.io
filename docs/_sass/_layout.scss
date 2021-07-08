@@ -196,3 +196,20 @@ footer {
   border: none;
   padding-left: 0;
 }
+li {
+    p {
+        display: inline;
+        &::after {
+          content: "\a\a";
+          white-space: pre;
+        }
+    }
+
+}
+
+code {
+    position: relative;
+    word-break: break-all;
+    padding: 0.1rem 0.3rem;
+    top: -.15em;
+}
