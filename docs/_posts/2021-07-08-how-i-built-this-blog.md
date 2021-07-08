@@ -3,7 +3,7 @@ layout: post
 title: How I Built This Blog
 description: Details on the creating of this blog
 summary: Details on the creation of this blog
-tags: How-to
+tags: how-to, blog
 ---
 
 ### Clone the source repo
