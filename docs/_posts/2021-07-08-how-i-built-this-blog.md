@@ -1,10 +1,18 @@
 ---
 layout: post
-title: How I Built This Blog
+title: About This Blog
 description: Details on the creating of this blog
 summary: Details on the creation of this blog
 tags: how-to blog
 ---
+This blog runs on Jekyll and Github Pages. 
+
+To write posts and test locally, first clone the git repo. Next, start the
+local environment with `docker compose up`. You may then edit files and watch
+live updates in the browser at http://localhost:4000. When ready, commit the
+changes and push to remote to make the changes live.
+
+## How this blog was setup
 
 ### Clone the source repo
 ```
