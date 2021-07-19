@@ -3,7 +3,7 @@ layout: post
 title: "Elixir: Use HTTPoison to wrap APIs"
 description:
 summary:
-tags: docs
+tags: docs, elixir
 published: true
 ---
 This is my method for interfacing with web APIs using Elixir and HTTPoison.
